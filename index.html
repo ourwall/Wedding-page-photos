@@ -1,76 +1,103 @@
-<!DOCTYPE html><html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">  <title>Wedding Photo Wall | Share Every Moment</title>
-  <meta
-    name="description"
-    content="Let your wedding guests capture and share photos instantly on a personalised live wedding photo wall."
-  >  <link rel="stylesheet" href="style.css">
-</head><body>  <header class="hero">
-    <div class="container">
-      <p class="eyebrow">Your day. Their memories.</p>  <h1>Wedding Photo Wall</h1>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-  <p class="tagline">
-    Let your guests capture and share every moment, live on the big day.
-  </p>
-</div>
+body {
+  background-color: #181514;
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
 
-  </header>  <main><section class="how-it-works" aria-labelledby="how-it-works-title">
-  <div class="container">
-    <h2 id="how-it-works-title">How it works</h2>
+.hero {
+  text-align: center;
+  padding: 60px 20px 40px;
+}
 
-    <ol class="steps">
-      <li class="step">
-        <span class="step-number" aria-hidden="true">1</span>
-        <div>
-          <h3>Scan the QR code</h3>
-          <p>Guests scan the QR code on their table card.</p>
-        </div>
-      </li>
+.hero h1 {
+  font-size: 2.2rem;
+  color: #ff4081;
+  margin-bottom: 10px;
+}
 
-      <li class="step">
-        <span class="step-number" aria-hidden="true">2</span>
-        <div>
-          <h3>Share a moment</h3>
-          <p>They snap a photo and add a short caption.</p>
-        </div>
-      </li>
+.tagline {
+  font-size: 1.1rem;
+  color: #cccccc;
+  max-width: 400px;
+  margin: 0 auto;
+}
 
-      <li class="step">
-        <span class="step-number" aria-hidden="true">3</span>
-        <div>
-          <h3>See it live</h3>
-          <p>
-            Their photo appears instantly on your live photo wall for
-            everyone to enjoy.
-          </p>
-        </div>
-      </li>
-    </ol>
-  </div>
-</section>
+.how-it-works {
+  padding: 40px 20px;
+  text-align: center;
+}
 
-<section class="cta" aria-labelledby="cta-title">
-  <div class="container">
-    <h2 id="cta-title">Get your wedding wall</h2>
+.how-it-works h2 {
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+}
 
-    <p>
-      Personalised with your names, colours, and a printed QR code
-      for every table.
-    </p>
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 400px;
+  margin: 0 auto;
+}
 
-    <a
-      href="mailto:YOUREMAIL@example.com?subject=Wedding%20Photo%20Wall%20Enquiry"
-      class="contact-btn"
-    >
-      Get in touch
-    </a>
-  </div>
-</section>
+.step {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-align: left;
+}
 
-  </main>  <footer>
-    <div class="container">
-      <p>&copy; 2026 Wedding Photo Wall. All rights reserved.</p>
-    </div>
-  </footer></body>
-</html>
+.step-number {
+  background-color: #ff4081;
+  color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.cta {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #12100f;
+}
+
+.cta h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.cta p {
+  color: #cccccc;
+  max-width: 350px;
+  margin: 0 auto 25px;
+}
+
+.contact-btn {
+  display: inline-block;
+  background-color: #ff4081;
+  color: white;
+  padding: 14px 32px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #888;
+  font-size: 0.85rem;
+}
