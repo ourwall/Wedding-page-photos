@@ -133,3 +133,19 @@ footer {
     justify-content: center;
   }
 }
+.hero-polaroid {
+  background-color: #ffffff;
+  padding: 12px 12px 30px 12px;
+  border-radius: 3px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+  width: 200px;
+  margin: 0 auto 30px;
+  transform: rotate(-4deg);
+}
+
+.hero-polaroid img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
