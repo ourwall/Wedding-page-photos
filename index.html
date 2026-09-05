@@ -1,103 +1,45 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wedding Photo Wall</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-body {
-  background-color: #181514;
-  color: #ffffff;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  line-height: 1.6;
-}
+  <header class="hero">
+    <h1>Wedding Photo Walls</h1>
+    <p class="tagline">Let your guests capture and share every moment, live on the big day.</p>
+  </header>
 
-.hero {
-  text-align: center;
-  padding: 60px 20px 40px;
-}
+  <section class="how-it-works">
+    <h2>How it works</h2>
+    <div class="steps">
+      <div class="step">
+        <span class="step-number">1</span>
+        <p>Guests scan a QR code on the table cards</p>
+      </div>
+      <div class="step">
+        <span class="step-number">2</span>
+        <p>They snap a photo and add a short caption</p>
+      </div>
+      <div class="step">
+        <span class="step-number">3</span>
+        <p>It appears instantly on a live photo wall for everyone to see</p>
+      </div>
+    </div>
+  </section>
 
-.hero h1 {
-  font-size: 2.2rem;
-  color: #ff4081;
-  margin-bottom: 10px;
-}
+  <section class="cta">
+    <h2>Get your wedding wall</h2>
+    <p>Personalised with your names, colours, and a printed QR code for every table.</p>
+    <a href="mailto:YOUREMAIL@example.com?subject=Wedding Photo Wall Enquiry" class="contact-btn">Get in touch</a>
+  </section>
 
-.tagline {
-  font-size: 1.1rem;
-  color: #cccccc;
-  max-width: 400px;
-  margin: 0 auto;
-}
+  <footer>
+    <p>&copy; 2026 Wedding Photo Wall</p>
+  </footer>
 
-.how-it-works {
-  padding: 40px 20px;
-  text-align: center;
-}
-
-.how-it-works h2 {
-  margin-bottom: 30px;
-  font-size: 1.5rem;
-}
-
-.steps {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-  max-width: 400px;
-  margin: 0 auto;
-}
-
-.step {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  text-align: left;
-}
-
-.step-number {
-  background-color: #ff4081;
-  color: white;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  flex-shrink: 0;
-}
-
-.cta {
-  text-align: center;
-  padding: 50px 20px;
-  background-color: #12100f;
-}
-
-.cta h2 {
-  margin-bottom: 10px;
-  font-size: 1.5rem;
-}
-
-.cta p {
-  color: #cccccc;
-  max-width: 350px;
-  margin: 0 auto 25px;
-}
-
-.contact-btn {
-  display: inline-block;
-  background-color: #ff4081;
-  color: white;
-  padding: 14px 32px;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1.1rem;
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-  color: #888;
-  font-size: 0.85rem;
-}
+</body>
+</html>
