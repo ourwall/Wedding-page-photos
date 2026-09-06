@@ -226,6 +226,9 @@ margin: 0 auto;
 .photo-row .hero-polaroid:nth-child(1) {
   transform: rotate(-6deg);
 }
+.highlight {
+  color: #c9a24b;
+}
 
 .photo-row .hero-polaroid:nth-child(2) {
   transform: rotate(3deg);
