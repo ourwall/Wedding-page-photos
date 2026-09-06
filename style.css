@@ -151,6 +151,8 @@ footer {
   height: 180px;
   object-fit: cover;
   display: block;
+  .polaroid img {
+    filter: sepia(15%) contrast(95%) saturate(85%);
 }
 /* FLIPPING WEDDING TEXT */
 .flip-container {
