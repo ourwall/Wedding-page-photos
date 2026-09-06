@@ -197,3 +197,31 @@ footer {
     transform: rotateX(360deg);
   }
 }
+.photo-row {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.photo-row .hero-polaroid {
+  width: 120px;
+  margin: 0;
+}
+
+.photo-row .hero-polaroid img {
+  height: 100px;
+}
+
+.photo-row .hero-polaroid:nth-child(1) {
+  transform: rotate(-6deg);
+}
+
+.photo-row .hero-polaroid:nth-child(2) {
+  transform: rotate(3deg);
+}
+
+.photo-row .hero-polaroid:nth-child(3) {
+  transform: rotate(-3deg);
+}
