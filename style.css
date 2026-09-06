@@ -144,7 +144,7 @@ footer {
         0 10px 20px rgba(60, 40, 20, 0.12);
 
     transform: rotate(-2deg);
-  max-width 220px;
+  max-width: 220px;
 margin: 0 auto;
 }
 
