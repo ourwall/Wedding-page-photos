@@ -134,14 +134,17 @@ footer {
   }
 }
 .hero-polaroid {
-  background-color: #f3ead7;
-  padding: 12px 12px 30px 12px;
-  border-radius: 3px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
-  width: 200px;
-  margin: 0 auto 30px;
-  transform: rotate(-4deg);
-}
+    background: #eee2c9;
+    padding: 12px 12px 35px;
+
+    border: 1px solid #d8c7a8;
+
+    box-shadow:
+        0 3px 8px rgba(60, 40, 20, 0.25),
+        0 10px 20px rgba(60, 40, 20, 0.12);
+
+    transform: rotate(-2deg);
+  }
 
 .hero-polaroid img {
   width: 100%;
