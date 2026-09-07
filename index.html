@@ -26,24 +26,7 @@
   <div class="hero-polaroid"><img src="Weddingwall4.jpg" alt="Wedding photo"></div>
   <div class="hero-polaroid"><img src="Weddingwall3.jpg" alt="Wedding photo"></div>
   </div>
-  <script>
-  document.getElementById('demoPhotoInput').addEventListener('change', function(e) {
-    const file = e.target.files[0];
-    if (!file) return;
-
-    const reader = new FileReader();
-    reader.onload = function(event) {
-      const container = document.getElementById('demoPolaroid');
-      container.innerHTML = `
-        <div class="hero-polaroid demo-result">
-          <img src="${event.target.result}" alt="Your demo photo">
-          <p>your photo would appear here! 🎉</p>
-        </div>
-      `;
-    };
-    reader.readAsDataURL(file);
-  });
-  </script>
+  
 
   <section class="how-it-works">
     <h2>its so easy to add to your wall</h2>
@@ -87,5 +70,25 @@
   <footer>
     <p>&copy; 2026 wedding photo wall</p>
   </footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('demoPhotoInput').addEventListener('change', function(e) {
+    const file = e.target.files[0];
+    if (!file) return;
+
+    const reader = new FileReader();
+    reader.onload = function(event) {
+      const container = document.getElementById('demoPolaroid');
+      container.innerHTML = `
+        <div class="hero-polaroid demo-result">
+          <img src="${event.target.result}" alt="Your demo photo">
+          <p>your photo would appear here! 🎉</p>
+        </div>
+      `;
+    };
+    reader.readAsDataURL(file);
+  });
+});
+</script>
 </body>
 </html>
