@@ -65,30 +65,31 @@
 
       <a href="mailto:narwhalweddingphotos@gmail.com?subject=Wedding Photo Wall Enquiry" class="contact-btn">Get in touch</a>
     </a>
-  </section>
+  </section> </section>
 
-  <footer>
-    <p>&copy; 2026 wedding photo wall</p>
-  </footer>
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  document.getElementById('demoPhotoInput').addEventListener('change', function(e) {
-    const file = e.target.files[0];
-    if (!file) return;
+    <footer>
+      <p>&copy; 2026 wedding photo wall</p>
+    </footer>
 
-    const reader = new FileReader();
-    reader.onload = function(event) {
-      const container = document.getElementById('demoPolaroid');
-      container.innerHTML = `
-        <div class="hero-polaroid demo-result">
-          <img src="${event.target.result}" alt="Your demo photo">
-          <p>just like this onto your own personal wall</p>
-        </div>
-      `;
-    };
-    reader.readAsDataURL(file);
-  });
-});
-</script>
-</body>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      document.getElementById('demoPhotoInput').addEventListener('change', function(e) {
+        const file = e.target.files[0];
+        if (!file) return;
+
+        const reader = new FileReader();
+        reader.onload = function(event) {
+          const container = document.getElementById('demoPolaroid');
+          container.innerHTML = `
+            <div class="hero-polaroid demo-result spin-land">
+              <img src="${event.target.result}" alt="Your demo photo">
+              <p>just like this onto your own personal wall</p>
+            </div>
+          `;
+        };
+        reader.readAsDataURL(file);
+      });
+    });
+    </script>
+  </body>
 </html>
