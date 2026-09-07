@@ -237,3 +237,26 @@ margin: 0 auto;
 .photo-row .hero-polaroid:nth-child(3) {
   transform: rotate(-3deg);
 }
+.demo-btn {
+  background: #c9a24b;
+  color: white;
+  border: none;
+  padding: 14px 24px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 20px auto;
+  display: block;
+}
+
+.demo-upload {
+  text-align: center;
+  padding: 20px;
+}
+
+#demoPolaroid {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
