@@ -306,3 +306,6 @@ margin: 0 auto;
   color: #d85bff;
   font-weight: bold;
 }
+.hero, .photo-row {
+  background: rgba(0, 0, 0, 0.4);
+}
