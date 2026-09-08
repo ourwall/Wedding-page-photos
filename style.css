@@ -313,3 +313,24 @@ body {
   background: linear-gradient(135deg, #1a0a2e, #16003d, #2d0a4e);
   background-attachment: fixed;
 }
+.demo-result {
+  background: #1a1a1a;
+  border: 3px solid #ff1493;
+  box-shadow: 0 0 30px 10px rgba(255, 20, 147, 0.6);
+  animation: pinkPulse 2s ease-in-out infinite;
+}
+
+.demo-result p {
+  color: #ff69b4;
+  font-weight: bold;
+  text-shadow: 0 0 8px rgba(255, 20, 147, 0.7);
+}
+
+@keyframes pinkPulse {
+  0%, 100% {
+    box-shadow: 0 0 30px 10px rgba(255, 20, 147, 0.6);
+  }
+  50% {
+    box-shadow: 0 0 55px 22px rgba(255, 20, 147, 1);
+  }
+}
