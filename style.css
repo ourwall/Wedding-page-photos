@@ -309,3 +309,7 @@ margin: 0 auto;
 .hero, .photo-row {
   background: rgba(0, 0, 0, 0.4);
 }
+body {
+  background: linear-gradient(135deg, #1a0a2e, #16003d, #2d0a4e);
+  background-attachment: fixed;
+}
