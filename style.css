@@ -292,3 +292,7 @@ margin: 0 auto;
 .photo-row .hero-polaroid:nth-child(3) {
   box-shadow: 0 0 45px 15px rgba(216, 91, 255, 0.85);
 }
+.photo-row .hero-polaroid {
+  background: #1a1a1a;
+  border: 3px solid #000;
+}
