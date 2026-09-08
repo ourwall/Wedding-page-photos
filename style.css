@@ -296,3 +296,13 @@ margin: 0 auto;
   background: #1a1a1a;
   border: 3px solid #000;
 }
+.demo-result {
+  background: #1a1a1a;
+  border: 3px solid #000;
+  box-shadow: 0 0 45px 15px rgba(191, 64, 255, 0.85);
+}
+
+.demo-result p {
+  color: #d85bff;
+  font-weight: bold;
+}
