@@ -281,3 +281,14 @@ margin: 0 auto;
     transform: rotate(-2deg) scale(1);
   }
 }
+.photo-row .hero-polaroid:nth-child(1) {
+  box-shadow: 0 0 45px 15px rgba(191, 64, 255, 0.85);
+}
+
+.photo-row .hero-polaroid:nth-child(2) {
+  box-shadow: 0 0 45px 15px rgba(138, 43, 226, 0.85);
+}
+
+.photo-row .hero-polaroid:nth-child(3) {
+  box-shadow: 0 0 45px 15px rgba(216, 91, 255, 0.85);
+}
